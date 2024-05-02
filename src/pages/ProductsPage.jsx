@@ -41,7 +41,7 @@ function ProductsPage() {
           <Card key={p.id} data={p}></Card>
         ))}
       </div>
-      <SideBar setQuery = {setQuery} />
+      <SideBar setQuery = {setQuery} query ={query} />
     </div>
     </>
   )
