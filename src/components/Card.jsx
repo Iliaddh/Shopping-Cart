@@ -11,7 +11,7 @@ function Card({data}) {
     <div className={styles.card}>
         <img src={image} alt={title}  />
         <h3>{ShortenText(title)}</h3>
-        <p>{price}</p>
+        <p>${price}</p>
         <div className={styles.action}>
             <Link to={`/products/${id}`}>  
                 <TbListDetails/>
